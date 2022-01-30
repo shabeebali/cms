@@ -1,0 +1,25 @@
+{
+    "name": "bashbee/laravel-cms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shabeeb",
+            "email": "shabeeb@outlook.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bashbee\\CMS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bashbee\\CMS\\Providers\\CMSServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -174,8 +174,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        \Bashbee\CMS\Providers\CMSServiceProvider::class
+        \Comasy\Admin\Providers\AdminServiceProvider::class,
+        \Comasy\Page\Providers\PageServiceProvider::class,
+        \Comasy\Core\Providers\CoreServiceProvider::class,
+        \Comasy\Menu\Providers\MenuServiceProvider::class,
 
+        Nwidart\Menus\MenusServiceProvider::class,
     ],
 
     /*
@@ -230,7 +234,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'Menu' => Nwidart\Menus\Facades\Menu::class,
     ],
 
 ];

@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-nav-item {
+    @apply inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out;
+}
+.main-nav-item-active {
+    @apply inline-flex items-center px-1 pt-1 border-b-2 border-indigo-400 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out;
+}
+.primary-btn {
+    @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+}
+.success-btn {
+    @apply text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800;
+}
+.page-title {
+    @apply font-semibold text-xl text-gray-800 leading-tight flex items-center;
+}
+h6 {
+    @apply font-medium leading-tight text-base mt-0 mb-2;
+}
+h5 {
+    @apply font-medium leading-tight text-xl mt-0 mb-2;
+}
+h4 {
+    @apply font-medium leading-tight text-2xl mt-0 mb-2;
+}
+h3 {
+    @apply font-medium leading-tight text-3xl mt-0 mb-2;
+}
+h2 {
+    @apply font-medium leading-tight text-4xl mt-0 mb-2;
+}
+h1 {
+    @apply font-medium leading-tight text-5xl mt-0 mb-2;
+}
+.input-text {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+}
+.input-text-label {
+    @apply block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300;
+}
+.error {
+    @apply mt-2 text-sm text-red-600 dark:text-red-500;
+}
+.list {
+    @apply w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white hover:bg-slate-100 dark:hover:bg-gray-600;
+}
+.list-item {
+    @apply py-2 px-4 w-full border-b border-gray-200 dark:border-gray-600;
+}
+.list-item:first-child {
+    @apply rounded-t-lg;
+}
+.list-item:last-child {
+    @apply rounded-b-lg border-b-0;
+}

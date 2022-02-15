@@ -1,0 +1,25 @@
+{
+    "name": "comasy/page",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shabeeb",
+            "email": "shabeeb@outlook.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Comasy\\Page\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Comasy\\Page\\Providers\\PageServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

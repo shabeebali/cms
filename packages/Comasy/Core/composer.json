@@ -1,0 +1,19 @@
+{
+    "name": "comasy/core",
+    "description": "Core module for comasy CMS system",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Comasy\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shabeeb",
+            "email": "shabeeboali@gmail.com"
+        }
+    ]
+}

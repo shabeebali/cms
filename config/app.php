@@ -172,13 +172,13 @@ return [
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
-
         \Comasy\Admin\Providers\AdminServiceProvider::class,
         \Comasy\Page\Providers\PageServiceProvider::class,
-        \Comasy\Core\Providers\CoreServiceProvider::class,
         \Comasy\Menu\Providers\MenuServiceProvider::class,
+        \Comasy\J2C\Providers\J2CServiceProvider::class,
+        \Comasy\Core\Providers\CoreServiceProvider::class,
 
+        App\Providers\RouteServiceProvider::class,
         Nwidart\Menus\MenusServiceProvider::class,
     ],
 

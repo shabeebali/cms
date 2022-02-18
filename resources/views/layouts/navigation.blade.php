@@ -6,7 +6,11 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                        <x-application-logo class="block h-10 w-auto fill-current text-gray-600" />
+                        @if ($logo_url)
+                            <img src="/storage/{{ $logo_url }}" width="150" height="auto" />
+                        @else
+                            <x-application-logo class="block h-10 w-auto fill-current text-gray-600" />
+                        @endif
                     </a>
                 </div>
 

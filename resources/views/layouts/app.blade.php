@@ -53,6 +53,13 @@
             })
         </script>
     @endif
+    @if (session('info'))
+        <script>
+            $.jGrowl('{{ session('info') }}', {
+                group: 'bg-blue-700'
+            })
+        </script>
+    @endif
 </body>
 
 </html>

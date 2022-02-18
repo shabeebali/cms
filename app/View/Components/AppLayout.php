@@ -2,6 +2,7 @@
 
 namespace App\View\Components;
 
+use Comasy\Core\Models\Setting;
 use Illuminate\View\Component;
 
 class AppLayout extends Component
@@ -13,6 +14,11 @@ class AppLayout extends Component
      */
     public function render()
     {
-        return view('layouts.app');
+        $logo = Setting::where('slug', 'logo')->first();
+        $logo_url = '';
+        if ($logo->value) {
+            $logo_url = $logo->value;
+        }
+        return view('layouts.app', ['logo_url' => $logo_url]);
     }
 }

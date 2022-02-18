@@ -77,8 +77,19 @@
                                                             {{ $page->active ? 'Yes' : 'No' }}</td>
                                                         <td
                                                             class="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
-                                                            <a href="{{ route('admin.pages.edit', $page->id) }}"
-                                                                class="text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                                            <form
+                                                                action="{{ route('admin.pages.destroy', $page->id) }}"
+                                                                method="POST">
+                                                                <a href="{{ route('admin.pages.edit', $page->id) }}"
+                                                                    class="primary-btn btn-sm">Edit</a>
+
+                                                                @csrf
+                                                                @method('DELETE')
+                                                                <button type="submit"
+                                                                    onclick="return confirm('Do you really want to delete page!')"
+                                                                    class="danger-btn btn-sm">Delete</button>
+                                                            </form>
+
                                                         </td>
                                                     </tr>
                                                 @endforeach

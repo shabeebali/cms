@@ -15,7 +15,7 @@ class PageController extends Controller
      */
     public function index()
     {
-        $pages = CmsPage::paginate(1);
+        $pages = CmsPage::paginate(15);
         return view('page::admin.index', ['pages' => $pages]);
     }
 
@@ -43,7 +43,7 @@ class PageController extends Controller
         ]);
         $model = new CmsPage($request->only('page_title', 'html_content'));
         $model->active = $request->active ? 1 : 0;
-        $model->url_key = $request->url_key ?: Str::slug($request->page_title, '_');
+        $model->url_key = $request->url_key ?: Str::slug($request->page_title, '-');
         $model->meta_title = $request->meta_title ?: $request->page_title;
         $model->save();
         return redirect(route('admin.pages.index'))->with('success', 'Page Created Successfully');
@@ -107,6 +107,8 @@ class PageController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $model = CmsPage::find($id);
+        $model->delete();
+        return redirect(route('admin.pages.index'))->with('info', 'Page Deleted Successfully');
     }
 }

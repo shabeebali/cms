@@ -1,0 +1,128 @@
+Date : 2022-02-18 09:16:12
+Directory : c:\Users\shabe\Documents\Laravel Projects\cms\resources
+Total : 76 files,  5361 codes, 94 comments, 355 blanks, all 5810 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| PHP        |         71 |      5,233 |         76 |        338 |      5,647 |
+| CSS        |          2 |        120 |          0 |          4 |        124 |
+| JavaScript |          3 |          8 |         18 |         13 |         39 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                               | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                  |         76 |      5,361 |         94 |        355 |      5,810 |
+| css                                                                                                                |          2 |        120 |          0 |          4 |        124 |
+| js                                                                                                                 |          3 |          8 |         18 |         13 |         39 |
+| lang                                                                                                               |          4 |        143 |         60 |         24 |        227 |
+| lang\en                                                                                                            |          4 |        143 |         60 |         24 |        227 |
+| views                                                                                                              |         67 |      5,090 |         16 |        314 |      5,420 |
+| views\auth                                                                                                         |          6 |        223 |          0 |         57 |        280 |
+| views\components                                                                                                   |         16 |        729 |          0 |         30 |        759 |
+| views\components\admin                                                                                             |          1 |          8 |          0 |          2 |         10 |
+| views\includes                                                                                                     |          2 |        387 |          0 |         63 |        450 |
+| views\layouts                                                                                                      |          5 |        195 |          0 |         33 |        228 |
+| views\vendor                                                                                                       |         34 |      3,351 |         16 |        125 |      3,492 |
+| views\vendor\admin                                                                                                 |          2 |         69 |          0 |         12 |         81 |
+| views\vendor\admin\auth                                                                                            |          1 |         48 |          0 |         11 |         59 |
+| views\vendor\core                                                                                                  |          1 |        120 |          0 |          2 |        122 |
+| views\vendor\core\admin                                                                                            |          1 |        120 |          0 |          2 |        122 |
+| views\vendor\j2c                                                                                                   |          4 |      1,391 |          0 |         24 |      1,415 |
+| views\vendor\j2c\admin                                                                                             |          2 |        118 |          0 |          2 |        120 |
+| views\vendor\menu                                                                                                  |          3 |        940 |         12 |         29 |        981 |
+| views\vendor\menu\admin                                                                                            |          3 |        940 |         12 |         29 |        981 |
+| views\vendor\nwidart                                                                                               |         14 |        124 |          0 |         20 |        144 |
+| views\vendor\nwidart\menus                                                                                         |         14 |        124 |          0 |         20 |        144 |
+| views\vendor\nwidart\menus\child                                                                                   |          2 |         23 |          0 |          2 |         25 |
+| views\vendor\nwidart\menus\item                                                                                    |          2 |         27 |          0 |          2 |         29 |
+| views\vendor\page                                                                                                  |          3 |        420 |          4 |         13 |        437 |
+| views\vendor\page\admin                                                                                            |          3 |        420 |          4 |         13 |        437 |
+| views\vendor\pagination                                                                                            |          7 |        287 |          0 |         25 |        312 |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                           | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\css\admin.css                                              | CSS        |         63 |          0 |          2 |         65 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\css\app.css                                                | CSS        |         57 |          0 |          2 |         59 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\js\app.js                                                  | JavaScript |          4 |          0 |          4 |          8 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\js\bootstrap.js                                            | JavaScript |          3 |         18 |          8 |         29 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\js\frontend.js                                             | JavaScript |          1 |          0 |          1 |          2 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\lang\en\auth.php                                           | PHP        |          6 |         10 |          5 |         21 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\lang\en\pagination.php                                     | PHP        |          5 |         10 |          5 |         20 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\lang\en\passwords.php                                      | PHP        |          8 |         10 |          5 |         23 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\lang\en\validation.php                                     | PHP        |        124 |         30 |          9 |        163 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\auth\confirm-password.blade.php                      | PHP        |         30 |          0 |          7 |         37 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\auth\forgot-password.blade.php                       | PHP        |         29 |          0 |          8 |         37 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\auth\login.blade.php                                 | PHP        |         46 |          0 |         11 |         57 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\auth\register.blade.php                              | PHP        |         47 |          0 |         13 |         60 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\auth\reset-password.blade.php                        | PHP        |         38 |          0 |         11 |         49 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\auth\verify-email.blade.php                          | PHP        |         33 |          0 |          7 |         40 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\admin\auth-card.blade.php                 | PHP        |          8 |          0 |          2 |         10 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\application-logo.blade.php                | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\auth-card.blade.php                       | PHP        |          8 |          0 |          2 |         10 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\auth-session-status.blade.php             | PHP        |          6 |          0 |          2 |          8 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\auth-validation-errors.blade.php          | PHP        |         13 |          0 |          3 |         16 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\button.blade.php                          | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\dropdown-link.blade.php                   | PHP        |          1 |          0 |          1 |          2 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\dropdown.blade.php                        | PHP        |         39 |          0 |          5 |         44 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\guest-admin-layout.blade.php              | PHP        |          3 |          0 |          0 |          3 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\input.blade.php                           | PHP        |          2 |          0 |          2 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\label.blade.php                           | PHP        |          4 |          0 |          2 |          6 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\nav-link.blade.php                        | PHP        |          9 |          0 |          3 |         12 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\responsive-nav-link.blade.php             | PHP        |          9 |          0 |          3 |         12 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\view-business-immigration-form.blade.php  | PHP        |          6 |          0 |          1 |          7 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\view-business-immigration-form2.blade.php | PHP        |        213 |          0 |          1 |        214 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\components\view-skilled-worker-form.blade.php        | PHP        |        402 |          0 |          1 |        403 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\dashboard.blade.php                                  | PHP        |         16 |          0 |          2 |         18 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\home.blade.php                                       | PHP        |        183 |          0 |          2 |        185 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\includes\footer.blade.php                            | PHP        |        253 |          0 |         52 |        305 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\includes\header.blade.php                            | PHP        |        134 |          0 |         11 |        145 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\layouts\app.blade.php                                | PHP        |         55 |          0 |         11 |         66 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\layouts\frontend.blade.php                           | PHP        |          5 |          0 |          1 |          6 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\layouts\guest-admin.blade.php                        | PHP        |         20 |          0 |          5 |         25 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\layouts\guest.blade.php                              | PHP        |         20 |          0 |          5 |         25 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\layouts\navigation.blade.php                         | PHP        |         95 |          0 |         11 |        106 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\page.blade.php                                       | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\admin\auth\login.blade.php                    | PHP        |         48 |          0 |         11 |         59 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\admin\dashboard.blade.php                     | PHP        |         21 |          0 |          1 |         22 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\core\admin\settings.blade.php                 | PHP        |        120 |          0 |          2 |        122 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\j2c\admin\index.blade.php                     | PHP        |        108 |          0 |          1 |        109 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\j2c\admin\view-application.blade.php          | PHP        |         10 |          0 |          1 |         11 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\j2c\business-immigration-assessment.blade.php | PHP        |      1,209 |          0 |         12 |      1,221 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\j2c\skilled-worker-thank.blade.php            | PHP        |         64 |          0 |         10 |         74 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\menu\admin\create.blade.php                   | PHP        |        419 |          6 |         14 |        439 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\menu\admin\edit.blade.php                     | PHP        |        420 |          6 |         14 |        440 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\menu\admin\index.blade.php                    | PHP        |        101 |          0 |          1 |        102 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\child\dropdown.blade.php        | PHP        |         12 |          0 |          1 |         13 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\child\item.blade.php            | PHP        |         11 |          0 |          1 |         12 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\default.blade.php               | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\item\dropdown.blade.php         | PHP        |         15 |          0 |          1 |         16 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\item\item.blade.php             | PHP        |         12 |          0 |          1 |         13 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\menu.blade.php                  | PHP        |          7 |          0 |          1 |          8 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\nav-pills-justified.blade.php   | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\nav-pills-stacked.blade.php     | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\nav-pills.blade.php             | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\nav-tabs-justified.blade.php    | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\nav-tabs.blade.php              | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\navbar-left.blade.php           | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\navbar-right.blade.php          | PHP        |          3 |          0 |          1 |          4 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\nwidart\menus\style.blade.php                 | PHP        |         43 |          0 |          7 |         50 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\page\admin\create.blade.php                   | PHP        |        154 |          2 |          5 |        161 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\page\admin\edit.blade.php                     | PHP        |        156 |          2 |          5 |        163 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\page\admin\index.blade.php                    | PHP        |        110 |          0 |          3 |        113 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\pagination\bootstrap-4.blade.php              | PHP        |         43 |          0 |          4 |         47 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\pagination\default.blade.php                  | PHP        |         43 |          0 |          4 |         47 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\pagination\semantic-ui.blade.php              | PHP        |         33 |          0 |          4 |         37 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\pagination\simple-bootstrap-4.blade.php       | PHP        |         26 |          0 |          2 |         28 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\pagination\simple-default.blade.php           | PHP        |         18 |          0 |          2 |         20 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\pagination\simple-tailwind.blade.php          | PHP        |         24 |          0 |          2 |         26 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\vendor\pagination\tailwind.blade.php                 | PHP        |        100 |          0 |          7 |        107 |
+| c:\Users\shabe\Documents\Laravel Projects\cms\resources\views\welcome.blade.php                                    | PHP        |          3 |          0 |          1 |          4 |
+| Total                                                                                                              |            |      5,361 |         94 |        355 |      5,810 |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
